@@ -1,6 +1,6 @@
 # 󰪚 Calculadora AGY
 
-Una calculadora moderna construida en **Rust** diseñada especialmente para entornos **Wayland** y el compositor **Niri**, con integración dinámica de colores para **Noctalia v5** y una estética minimalista estilo **btop++ / terminal**.
+Una calculadora moderna construida en **Rust** diseñada especialmente para entornos **Wayland** y el compositor **Niri**, con integración dinámica de colores para **Noctalia v5** y una estética minimalista estilo **btop++ / terminal**. Este proyecto fue desarrollado utilizando Google Antigravity CLI.
 
 ![Calculadora AGY Preview](calc_preview.png)
 
@@ -51,11 +51,3 @@ Una calculadora moderna construida en **Rust** diseñada especialmente para ento
 | `Delete` | Borrar todo incluyendo historial (`AC`) |
 | `Esc` o `q` | Salir de la calculadora (o limpiar si hay texto) |
 
-## 🚀 Instalación y Ejecución
-
-El binario optimizado ya se encuentra compilado e instalado en `~/.local/bin/calculadora-agy`.
-
-```bash
-# Ejecutar directamente desde la terminal o lanzador de aplicaciones (dmenu, fuzzel, rofi, Noctalia launcher):
-calculadora-agy
-```
